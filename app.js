@@ -27,7 +27,7 @@ else {
 let random1 = document.getElementById('random');
 let aleatoire;
 for( let i = 0; i < 1; i++) {
-    aleatoire = Math.trunc(Math.random() * 100);
+    aleatoire = Math.random() * 100;
     random1.innerHTML = aleatoire;
 }
 
